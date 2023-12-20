@@ -131,21 +131,16 @@
         console.log (bonus);
 
         // no 6 
-        let airSurut = 650;
+        let airSurut = 700;
 
-        if (airSurut< 500){
+        if (airSurut <=500){
             kondisi ="aman"
-        } else if (airSurut <600){
+        } else if (airSurut <=600){
             kondisi ="Wapada"
-        }else if (airSurut <650){
-            kondisi ="Siaga1"
-        }else if (airSurut >650){
-            kondisi ="Siaga2"
-        }else if (airSurut == 650){
-            kondisi ="Siaga1"
+        } else if (airSurut  <=650){
+            kondisi ="siaga2"
         }else{
-            kondisi="APA COBAA"
-        }
+            kondisi ="Siaga1"}
 
         console.log (kondisi);
 
@@ -159,7 +154,7 @@
         console.log (v3)
         
         // menghitung jam ke detik
-        let jam = 2;
+        let jam = 2
         let menit = 30;
         let detik = 45;
 
